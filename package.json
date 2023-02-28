@@ -1,0 +1,38 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "A full stack application that allows users to create a profile and upload their favorite recipes!",
+  "main": "server.js",
+  "dependencies": {
+    "@octokit/core": "^4.2.0",
+    "axios": "^1.3.2",
+    "base-64": "^1.0.0",
+    "bcrypt": "^5.0.0",
+    "connect-session-sequelize": "^7.0.4",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "form-data": "^4.0.0",
+    "github": "^14.0.0",
+    "handlebars": "^4.7.6",
+    "mysql2": "^2.2.5",
+    "nodeman": "^1.1.2",
+    "nodemon": "^2.0.20",
+    "octokit": "^2.0.14",
+    "sequelize": "^6.3.5"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "seeds": "node seeds/seed.js",
+    "start:dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickjavalos/tech-blog.git"
+  },
+  "author": "Erick Avalos",
+  "license": "ISC",
+  "homepage": "https://github.com/erickjavalos/tech-blog#readme"
+}
